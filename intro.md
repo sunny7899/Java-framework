@@ -49,6 +49,10 @@ Use an ArrayList for storing and accessing data, and LinkedList to manipulat
 
 https://docs.oracle.com/javase/8/docs/api/
 
+    setup
+	Download and install the latest JDK from the official Oracle website.
+	https://www.oracle.com/in/java/technologies/downloads/#jdk23-windows
+
 JIT compiller
 
 First, the Java source code (.java) conversion to byte code (.class) occurs with the help of the javac compiler.
@@ -200,6 +204,8 @@ functional interfaces, lambdas, and method references were added
 java -version
 javac Main.java -> complile the code
 java Main
+
+>javac --release 8 Test.java 
 
 spring boot-
 Java 17 or later
